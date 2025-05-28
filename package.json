@@ -4,6 +4,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun run --filter './packages/**' dev"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -12,5 +15,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  }
 }
