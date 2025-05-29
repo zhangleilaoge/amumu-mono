@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+	async redirects() {
+		return [
+			{
+				source: '/404',
+				destination: '/404.html',
+				permanent: true
+			}
+		];
+	},
+	env: {
+		NEXTJS_VERSION: '15.3.2'
+	}
 };
 
 export default nextConfig;

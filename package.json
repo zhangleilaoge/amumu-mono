@@ -5,7 +5,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run --filter './packages/**' dev"
+    "dev": "bun run --filter './packages/**' dev",
+    "init": "sh ./scripts/assets-init.sh"
   },
   "devDependencies": {
     "@types/bun": "latest"
