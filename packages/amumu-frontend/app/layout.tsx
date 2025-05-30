@@ -1,10 +1,7 @@
 // import './globals.css';
 
-import type { Metadata } from 'next';
-import {
-  Geist,
-  Geist_Mono,
-} from 'next/font/google';
+import type { Metadata } from "next"
+import { Geist, Geist_Mono } from "next/font/google"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,10 +14,10 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Briar",
+  title: "Amumu",
   description: "",
   icons: {
-    icon: "https://zzcjbauazgbnnpxahajj.supabase.co/storage/v1/object/public/amumu/img/bitbug_favicon.ico",
+    icon: "https://zzcjbauazgbnnpxahajj.supabase.co/storage/v1/object/public/amumu/img/amu-removebg-preview%20(1).png",
   },
 }
 
